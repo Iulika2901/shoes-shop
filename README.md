@@ -16,12 +16,12 @@
     Ready to take the next step? Log in to your account, add your favorite pairs to the cart, and place your order today! </p>
     Enjoy a seamless shopping experience with easy navigation, a secure checkout process, and fast delivery right to your doorstep.
  
-    <h4>Our website offers a seamless online shopping experience, allowing you to easily browse and purchase your favorite sports shoes. Enjoy features like a wishlist section to save your top picks, user accounts with two-step authentication for added security, and a convenient shopping cart for a smooth checkout process.
+   <p> Our website offers a seamless online shopping experience, allowing you to easily browse and purchase your favorite sports shoes. Enjoy features like a wishlist section to save your top picks, user accounts with two-step authentication for added security, and a convenient shopping cart for a smooth checkout process.
 
    Stay connected with us on social media for the latest updates, promotions, and exclusive offers. 
    You can find us on Facebook, Instagram, and Twitter. Feel free to reach out to us with any questions or feedback through our social media channels.
     
-    Order now and enjoy fast delivery straight to your doorstep. Don’t forget to log in to your account to access all our features and get personalized recommendations.</h4>
+    Order now and enjoy fast delivery straight to your doorstep. Don’t forget to log in to your account to access all our features and get personalized recommendations.</p>
     
 </section>
 
