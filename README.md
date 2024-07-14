@@ -21,7 +21,7 @@
    Stay connected with us on social media for the latest updates, promotions, and exclusive offers. 
    You can find us on Facebook, Instagram, and Twitter. Feel free to reach out to us with any questions or feedback through our social media channels.
     
-    Order now and enjoy fast delivery straight to your doorstep. Don’t forget to log in to your account to access all our features and get personalized recommendations.</p>
+    Order now and enjoy fast delivery straight to your doorstep. Don’t forget to log in to your account to access all our features and get personalized recommendations.
     
 </section>
 
