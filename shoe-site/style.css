@@ -324,3 +324,93 @@ section .main .button:hover i {
     border-radius: 20px;
     box-shadow: 0 0 8px #9b0b62;
 }
+
+.about .about_btn {
+    color: black;
+    background: none;
+    position: relative;
+    top: 10%;
+    left: 50px;
+    transform: translate(-50%, 50%);
+    padding: 10px 25px;
+    border: 2px solid #c72092;
+    text-decoration: none; /*unver/overline*/
+    box-shadow: 0 0 8px #c72092;
+    transition: 0.5s;
+}
+
+.about .about_btn:hover {   /*shop now btn*/
+border: 2px solid #0b4ce1;
+background: #08d3d6;
+color: white;
+}
+
+
+/*review section*/
+.review{
+width: 100%;
+height:100vh;
+padding-top: 80px;
+}
+
+.review h1{ 
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;   
+}
+
+.review h1 span{
+
+    background: linear-gradient(to right, #9b0b62, #05487c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 15px
+
+}
+
+.review .review_box{
+  width: 95%;
+  position:relative;
+  top:27%;
+  display:flex;
+  align-items:center;
+  justify-content: left;
+  margin: 10px auto;
+  border: solid #05487c;
+  border-radius: 20px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+  box-shadow: 0 0 8px #c72092;
+  transition: 0.5s;
+}
+
+.review .review_box .review_card .card_top .profile  .profile_image img{
+    width: 100px;
+}
+
+
+.review_box .comment {
+    background: linear-gradient(to right, #9b0b62, #05487c);
+    color: rgb(255, 255, 255);
+    width: 10px 10px 0;
+    left: 10px;
+}
+
+
+.review_box .comment:hover{
+    background: linear-gradient(to right, #09acc9, #9b0b62);
+    color: white;
+    transition: 0.5s;
+    transform: translateX(100px);
+
+}   
+
+
+
+.review_box .review_card .card_top .profile i{
+    color: #8c00dd;
+}
