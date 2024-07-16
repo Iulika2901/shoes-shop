@@ -414,3 +414,64 @@ padding-top: 80px;
 .review_box .review_card .card_top .profile i{
     color: #8c00dd;
 }
+
+
+.services .services_cards .services_box h3:hover {
+color:#aa0c60;
+}
+
+
+.services .services_cards .services_box u:hover {
+    color:#0066ff;
+    }
+
+.services{
+    font-size: 15px;
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    padding: 80px 0 10px 0;
+}
+.services .services_cards .services_box b{
+    color:#aa0c60;
+    font-size: 25px;
+}
+
+.services .services_cards{
+
+width: 80%;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+
+}    
+    
+.services .services_box i{
+
+  font-size: 60px;
+  color:orange;
+  margin: 20px 0;
+  cursor: pointer;
+
+}
+
+
+/*login page*/
+
+.login_form{
+   
+width: 100%;
+height:1500px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+background-image: url(image/loging_bg.png);
+background-size: cover;
+background-position: center;
+}
+
+.login_form .left img{
+   
+ width: 650px;
+
+}
