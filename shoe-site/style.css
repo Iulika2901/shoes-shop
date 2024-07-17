@@ -428,7 +428,7 @@ color:#aa0c60;
 .services{
     font-size: 15px;
     width: 70%;
-    margin: 30px auto;
+    margin: 100px auto;
     text-align: center;
     padding: 80px 0 10px 0;
 }
@@ -474,4 +474,207 @@ background-position: center;
    
  width: 650px;
 
+}
+
+.login_form .right{
+position: relative;
+top: -50px;
+left: -60px;
+padding: 50px 80px;
+}
+
+.login_form .right h1{
+font-family: prevattscriptssk;
+font-size: 45px;
+margin-bottom: 40px;
+}
+
+.login_form .right p{
+margin-bottom: 5px;
+
+}
+
+.login_form .right .user{
+    border: 2px solid #05487c;
+    border-radius: 5px;
+    width: 183px;
+    height:30px;
+    display: flex;
+
+}
+
+.login_form .right .user i{
+   position: relative;
+   color:#9b0b62;
+
+
+}
+
+.login_form .right .password{
+    border: 2px solid #05487c;
+    border-radius: 5px;
+    width: 183px;
+    height:30px;
+    display: flex;
+
+}
+
+
+.login_form .right .password i{
+    position: relative;
+    color:#9b0b62;
+    
+ 
+ }
+
+ .login_form .right .user .username{
+    position: relative;
+    left: 9%;
+    width: 295px;
+    background: none;
+    outline: none;
+    border: none;
+    display: flex;
+    font-size: 15px;
+ }
+
+ .login_form .right .passwrong_tag{
+   margin: 15px 0 5px 0;
+ }
+
+::-webkit-input-placeholder{
+    color: black;
+    opacity: 0.7;
+}
+
+.login_form .right .forget{
+    position: relative;
+    left: 60%;
+    margin: 6px 0 10px 0;
+    cursor: pointer;
+}
+
+.login_form .right button{
+width: 350px;
+color: white;
+padding: 7px 20px;
+border: none;
+border-radius: 5px;
+font-size: 20px;
+cursor: pointer;
+background: linear-gradient(to right , #9b0b62, #6c14d0);
+
+}
+
+
+.login_form .right .loging_icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+
+}
+
+.login_form .right .loging_icon a{     /*google&fb logos */
+    width: 30px;
+    height: 30px;
+    margin: 0 2px;
+    border-radius: 50%;
+    background: #f3f3f3;
+    box-shadow: 0 0 5px rgba(0,0,0,0.6);
+}
+
+
+.login_form .right .loging_icon img{   /*google&fb logos  circle frame*/
+    width: 20px; 
+    margin: 5px 5px;
+}
+
+
+.login_form .right .forget button{
+    width: 350px;
+    color: white;
+    padding: 7px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    background: linear-gradient(to right , #9b0b62, #6c14d0);
+    
+    }
+
+.footer_main .tag i{
+    color:#05487c
+}
+
+/*footer*/
+
+footer{
+    width: 100%;
+}
+
+footer .footer_main{
+    width: 100%;
+    background: #f3f3f3;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+footer .footer_main .tag{  
+margin: 10px 0;
+}
+
+footer .footer_main .tag h1{  
+    font-size: 25px;
+    margin: 25px 0;
+    color: #05487c;
+}
+
+footer .footer_main .tag .center{
+    text-align: center;
+}
+
+footer .footer_main .tag a{  
+    display: block;
+    color: black;
+   text-decoration: none;
+   margin: 9px 0;
+}
+    
+
+footer .footer_main .tag a i{
+    padding: 0 10px;
+    transition: 0.3;
+}
+
+footer .footer_main .tag a i:hover{
+color:#9b0b62;
+}
+
+footer .footer_main .tag .social_link a{
+width: 30px;
+height: 30px;
+border-radius: 50%;
+text-align: center;
+text-decoration: none;
+color: black;
+box-shadow: 0 0 20px 10px rgba(0,0,0,0.05);
+position: relative;
+margin : 0 5px;
+z-index: 10;
+overflow: hidden;
+}
+
+footer .footer_main .tag .social_link a .fa-brands{
+font-size: 15px;
+line-height: 30px;
+z-index: 10;
+position: relative;
+transition: 0.5s;
+}
+
+
+footer .footer_main .tag .social_link a:hover i{
+    color:white;
 }
