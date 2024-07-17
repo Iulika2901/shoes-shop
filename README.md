@@ -24,11 +24,10 @@ Ready to take the next step? Log in to your account, add your favorite pairs to 
 
 Our website offers a seamless online shopping experience, allowing you to easily browse and purchase your favorite sports shoes. Enjoy features like a wishlist section to save your top picks, user accounts with two-step authentication for added security, and a convenient shopping cart for a smooth checkout process.
 
-Stay connected with us on social media for the latest updates, promotions, and exclusive offers. You can find us on Facebook, Instagram, and Twitter. Feel free to reach out to us with any questions or feedback through our social media channels. Order now and enjoy fast delivery straight to your doorstep. Don’t forget to log in to your account to access all our features and get personalized recommendations.
 
 
 
-![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
+
 
 
 ## Feedback
@@ -52,6 +51,7 @@ Please adhere to this project's `code of conduct`.
 
 - [@Iulika2901](https://github.com/Iulika2901)
 
+I worked for this site with:
 
 ![download](https://github.com/user-attachments/assets/2aae771b-d3ed-450a-a72b-fbad5eea0867)
 ![download](https://github.com/user-attachments/assets/68a99d1b-2400-4ee0-ae2d-31d0f6751e2b)
