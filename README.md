@@ -31,11 +31,6 @@ Stay connected with us on social media for the latest updates, promotions, and e
 ![Logo](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/th5xamgrr6se0x5ro4g6.png)
 
 
-## Lessons Learned
-
-What did you learn while building this project? What challenges did you face and how did you overcome them?
-
-
 ## Feedback
 
 If you have any feedback, please reach out to us at bacriu.iuliana@yahoo.com
@@ -51,16 +46,16 @@ See `contributing.md` for ways to get started.
 
 Please adhere to this project's `code of conduct`.
 
-## Color Reference
-
-| Color             | Hex                                                                |
-| ----------------- | ------------------------------------------------------------------ |
-| Example Color | ![#6c14d0](https://via.placeholder.com/10/0a192f?text=+) #0a192f |
-| Example Color | ![#9b0b62](https://via.placeholder.com/10/f8f8f8?text=+) #f8f8f8 |
-
 
 
 ## Authors
 
 - [@Iulika2901](https://github.com/Iulika2901)
 
+
+![download](https://github.com/user-attachments/assets/2aae771b-d3ed-450a-a72b-fbad5eea0867)
+![download](https://github.com/user-attachments/assets/68a99d1b-2400-4ee0-ae2d-31d0f6751e2b)
+![download](https://github.com/user-attachments/assets/1c01e853-5aa7-4dcc-96c8-cdecf3e732a1)
+![download](https://github.com/user-attachments/assets/28e3b8b0-a8ef-4da4-a9d4-1cdd849205a1)
+![download](https://github.com/user-attachments/assets/b0a3df9e-b65c-4b35-b7cd-5164696d92c5)
+![download](https://github.com/user-attachments/assets/05664a0e-b1ed-417f-a957-d1dd3c3f30f8)
