@@ -27,7 +27,7 @@
     let user=[];
     user[0] = ["Katerine North","123",/*name+psw*/shopping_cart1,  39, /*shoe size*/ 20,1,2014 /*date of birth*/];
     
-    user[1] = ["Kabru Lam","123", 40, shopping_cart2, /*shoe size*/ 20,10,2010 /*date of birth*/];
+    user[1] = ["ana","123", 40, shopping_cart2, /*shoe size*/ 20,10,2010 /*date of birth*/];
     
     user[2] = ["Pop Luca","123", 41,shopping_cart3, /*shoe size*/ 29,12,2003 /*date of birth*/];
     
@@ -66,24 +66,26 @@
   function login(name, password)
   {
     let stare=[];
-    stare[0]="Incorrect passwordtru again";
-    stare[1]="Login excessful";
+    stare[0]="Login excessful";
+    stare[1]="Incorrect password, try again";
 
     let ok=1;
     for(let i=0; i<numberOfUsers; i++)
     {
       if(user[i][0]==name && user[i][1]==password)
       ok=0;
-      let status=stare[0];
+      
     }
     if(ok===1) {
       console.log("User or password incorrect");
       
        }
     else {
-      console.log("Welcome", name);
-      let status=stare[1];
+      console.log("Welcome", name); 
+      window.location.href = "#Products";     
       }
+      var status=stare[ok];
+      document.getElementById("myText").innerHTML = status;
  
   }
   
@@ -98,4 +100,5 @@
     });
   });
   
+
 
