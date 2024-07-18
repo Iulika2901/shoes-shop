@@ -95,7 +95,7 @@
        }
     else {
       console.log("Welcome", name); 
-      window.location.href = "#Products";     
+      window.location.href = "#Shopping_Cart";     
       }
       var status=stare[ok];
       document.getElementById("myText").innerHTML = status;
@@ -129,13 +129,13 @@
             <li><a href="#Services">Services</a></li>
          </ul>
          <div class="icons"> 
-          <a href="#Products"><i class="fa-solid fa-heart"></i></a>
+          <a href="#Shopping_Cart"><i class="fa-solid fa-heart"></i></a>
 
 
-            <a href="#Products"><i class="fa-solid fa-cart-shopping"></i></a>
+            <a href="#Shopping_Cart"><i class="fa-solid fa-cart-shopping"></i></a>
 
 
-           <a href="#Products"> <i class="fa-solid fa-user"></i></a>
+           <a href="#Shopping_Cart"> <i class="fa-solid fa-user"></i></a>
 
 
          </div>
@@ -591,6 +591,65 @@
 </div>
 
  
+<!--shopping cart-->
+<div class="shopping_cart" id="Shopping_Cart">
+  <h1>Your Shopping Cart</h1>
+
+  <div class="box">
+    <div class="card">
+       <div class="small_card">
+          <i class="fa-regular fa-heart"></i>
+          <i class="fa-solid fa-share-nodes"></i>
+       </div>
+       <div class="image">
+          <img src="image/shoes1.png">
+       </div>
+       <div class="products_text">
+          <h2> Nike SpeedMax Pro</h2>
+          <p>
+           Size 39
+
+          </p>
+          <h3>$149.99</h3>
+          <div class="products_star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+          </div>
+          <a href="#" class="btn">Remove From Cart</a>
+       </div>
+    </div>
+
+    <div class="card">
+      <div class="small_card">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-solid fa-share-nodes"></i>
+      </div>
+      <div class="image">
+        <img src="image/shoes6.png">
+      </div>
+      <div class="products_text">
+        <h2> Nike EnduraFit Pro</h2>
+        <p>
+          Size 39
+        </p>
+        <h3>$499.99</h3>
+        <div class="products_star">
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-solid fa-star"></i>
+          <i class="fa-regular fa-star"></i>
+        </div>
+        <a href="#" class="btn">Remove From Cart</a>
+      </div>
+    </div>
+
+    
+  </div>
+</div>
 
    <!--footer-->
 <footer>
@@ -626,6 +685,7 @@
     </div>
   </div>
 </footer>
+
 
 
     </body>
