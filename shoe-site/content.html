@@ -40,7 +40,7 @@
     let user=[];
     user[0] = ["Katerine North","123",/*name+psw*/shopping_cart1,  39, /*shoe size*/ 20,1,2014 /*date of birth*/];
     
-    user[1] = ["Kabru Lam","123", 40, shopping_cart2, /*shoe size*/ 20,10,2010 /*date of birth*/];
+    user[1] = ["ana","123", 40, shopping_cart2, /*shoe size*/ 20,10,2010 /*date of birth*/];
     
     user[2] = ["Pop Luca","123", 41,shopping_cart3, /*shoe size*/ 29,12,2003 /*date of birth*/];
     
@@ -94,7 +94,8 @@
       
        }
     else {
-      console.log("Welcome", name);      
+      console.log("Welcome", name); 
+      window.location.href = "#Products";     
       }
       var status=stare[ok];
       document.getElementById("myText").innerHTML = status;
@@ -128,9 +129,15 @@
             <li><a href="#Services">Services</a></li>
          </ul>
          <div class="icons"> 
-            <i class="fa-solid fa-heart"></i>
-            <i class="fa-solid fa-cart-shopping"></i>
-            <i class="fa-solid fa-user"></i>
+          <a href="#Products"><i class="fa-solid fa-heart"></i></a>
+
+
+            <a href="#Products"><i class="fa-solid fa-cart-shopping"></i></a>
+
+
+           <a href="#Products"> <i class="fa-solid fa-user"></i></a>
+
+
          </div>
     </nav>
 
@@ -515,7 +522,7 @@
   </div>
   
    <!--service-->
-<div class="services" id="services">
+<div class="services" id="Services">
   <h1> Our <span>services</span> </h1>
 
   <div class="services_cards">
@@ -574,6 +581,7 @@
           <p class="forget">Forget Password</p>
           <button type="submit">Login</button>
           <span id="myText"></span>
+          
           <div class="loging_icon">
               <a href="#"><img src="image/google.png" alt="Google Login"></a>
               <a href="#"><img src="image/facebook.png" alt="Facebook Login"></a>
