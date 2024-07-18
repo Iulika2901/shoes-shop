@@ -458,6 +458,14 @@ justify-content: space-between;
 
 /*login page*/
 
+
+.login_form h1{
+    font-size: 50px;
+    color:#aa0c60;
+    align-items:center;
+    margin: 0 auto;
+}
+
 .login_form{
    
 width: 100%;
@@ -469,6 +477,7 @@ background-image: url(image/loging_bg.png);
 background-size: cover;
 background-position: center;
 }
+
 
 .login_form .left img{
    
