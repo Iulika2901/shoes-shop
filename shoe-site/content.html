@@ -79,24 +79,25 @@
   function login(name, password)
   {
     let stare=[];
-    stare[0]="Incorrect passwordtru again";
-    stare[1]="Login excessful";
+    stare[0]="Login excessful";
+    stare[1]="Incorrect password, try again";
 
     let ok=1;
     for(let i=0; i<numberOfUsers; i++)
     {
       if(user[i][0]==name && user[i][1]==password)
       ok=0;
-      let status=stare[0];
+      
     }
     if(ok===1) {
       console.log("User or password incorrect");
       
        }
     else {
-      console.log("Welcome", name);
-      let status=stare[1];
+      console.log("Welcome", name);      
       }
+      var status=stare[ok];
+      document.getElementById("myText").innerHTML = status;
  
   }
   
@@ -572,6 +573,7 @@
           </div>
           <p class="forget">Forget Password</p>
           <button type="submit">Login</button>
+          <span id="myText"></span>
           <div class="loging_icon">
               <a href="#"><img src="image/google.png" alt="Google Login"></a>
               <a href="#"><img src="image/facebook.png" alt="Facebook Login"></a>
