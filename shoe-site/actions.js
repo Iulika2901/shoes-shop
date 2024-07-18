@@ -1,6 +1,4 @@
-
-
-    console.log("Welcome to console");
+console.log("Welcome to console");
     var website="https://shoes_shop.com";
     console.log("Welcome to", website); /*comm*/
     
@@ -82,7 +80,7 @@
        }
     else {
       console.log("Welcome", name); 
-      window.location.href = "#Products";     
+      window.location.href = "#Shopping_Cart";     
       }
       var status=stare[ok];
       document.getElementById("myText").innerHTML = status;
@@ -99,6 +97,3 @@
         login(username, password);
     });
   });
-  
-
-
