@@ -79,7 +79,7 @@
   function login(name, password)
   {
     let stare=[];
-    stare[0]="Login excessful";
+    stare[0]="Login successfully";
     stare[1]="Incorrect password, try again";
 
     let ok=1;
@@ -567,7 +567,7 @@
       <img src="image/logshoes.png" alt="Logo">
   </div>
   <div class="right">
-      Welcome back, <div id="box">Name</div> 
+      Welcome back, <div id="box"> please login</div> 
       <form id="loginForm" action="#" method="post">
           <p> User Name </p>
           <div class="user">
@@ -579,10 +579,16 @@
               <i class="fa-solid fa-lock"></i>
               <input type="text" id="pass1" name="password" placeholder="Password">
           </div>
-          <p class="forget">Forget Password</p>
+
+          <p class="forget">
+             <button type="submit">  Forget Password </button>
+          </p>
+
+          <p class="login">
           <button type="submit">Login</button>
           <span id="myText"></span>
-          
+        </p>
+
           <div class="loging_icon">
               <a href="#"><img src="image/google.png" alt="Google Login"></a>
               <a href="#"><img src="image/facebook.png" alt="Facebook Login"></a>
