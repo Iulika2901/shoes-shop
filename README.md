@@ -25,7 +25,7 @@ Ready to take the next step? Log in to your account, add your favorite pairs to 
 ![WhatsApp Image 2024-07-17 at 15 34 16_9f5b8dbe](https://github.com/user-attachments/assets/e6aa7b8f-e7ce-4b7a-9637-9c3476f19b60)
 
 
-<h1>  👟 Introducing our new WhatsApp Chatbot! 👟  </h1>
+<h1>  👟 Introducing our new WhatsApp Chatbot, Twilio! 👟  </h1>
 
 <h3> Get exclusive sneaker deals and offers directly on WhatsApp! Chat with us now to stay updated on the latest discounts and new arrivals.
 
