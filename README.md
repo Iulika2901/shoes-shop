@@ -24,6 +24,15 @@ Ready to take the next step? Log in to your account, add your favorite pairs to 
 
 ![WhatsApp Image 2024-07-17 at 15 34 16_9f5b8dbe](https://github.com/user-attachments/assets/e6aa7b8f-e7ce-4b7a-9637-9c3476f19b60)
 
+
+<h1>  👟 Introducing our new WhatsApp Chatbot! 👟  </h1>
+
+<h3> Get exclusive sneaker deals and offers directly on WhatsApp! Chat with us now to stay updated on the latest discounts and new arrivals.
+
+Save big on your favorite kicks! 📲💬      </h3>
+
+![WhatsApp Image 2024-07-21 at 18 29 15_934a731f](https://github.com/user-attachments/assets/e3355b8f-f305-4c0a-962b-e1617390c1fc)
+
 Our website offers a seamless online shopping experience, allowing you to easily browse and purchase your favorite sports shoes. Enjoy features like a wishlist section to save your top picks, user accounts with two-step authentication for added security, and a convenient shopping cart for a smooth checkout process.
 
 
