@@ -50,3 +50,25 @@ if(__name__=="__main__"):
 #group_id=input("enter group_id") 
 #watsapp_message_bot(phone_number, group_id)
 
+#create database
+
+import sqlite3
+
+#conn = sqlite3.connect(':memory:')
+
+conn = sqlite3.connect('data.db')
+
+
+
+
+
+#def sqlite():
+c =conn.cursor() #cursor create
+  
+      #create database
+
+c.execute("INSERT INTO customer VALUES('John','Elder','john_elder@gmail.com')")
+
+
+
+
