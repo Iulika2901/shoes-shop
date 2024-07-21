@@ -1,25 +1,52 @@
+
+from flask  import Flask, request
+from twilio.twiml.messaging_response import MessagingResponse
+import io
+import datetime
+
+appbot=Flask(__name__)
+@appbot.route("/sms", methods=["get", "post"])
+
+def reply():
+  with io.open("response.csv","a", encoding="utf-8") as f1:
+    ur=request.form.get("Body")
+    un=request.form.get("From")
+    un=un.relapce("watsapp:","")
+    dt=datetime.datetime.now().strftime("%y%m%d--%H%M%S")
+    data=un+","+ ur +"," + dt + "\n"
+    f1.write(data)
+    resp=MessagingResponse()
+    resp.message("you sent"+ " " + ur + " "+"from"+" "+un + " " +"on"+" "+dt)
+    resp.message("today NikeProMax has 15% /disscount")
+    return(str(resp))
+  f1.close() 
+
+if(__name__=="__main__"):
+ appbot.run()
+
 # send notification with price+discounts for all users
 # send photos of new models
 
-import pywhatkit
+#import pywhatkit
 
 
-model=[None]*5
-model[0]= {'shoe': 'NikeProMax',
-            'price':'100',
-            'discount':'15%'}
+#model=[None]*5
+#model[0]= {'shoe': 'NikeProMax',
+ #           'price':'100',
+   #         'discount':'15%'}
 
-price_str=model[0]['price']
-price = float(price_str)
-optput=model[0]['shoe'] + price
-#output.replace(model[0]['price'],price)
-phone_number=input("Enter phone number")
-pywhatkit.sendwhatmsg(phone_number, optput , 17,7, 15, True, 2)
-#number, messsage, hour, minute, second,after how many sec after open wapp will send,  condition, after h m sec close
-#print('shoe {size} and price {price}').format(model[0]['shoe'],model[0]['price'])
-#print('Hello'[0:len('hello'):1] from 0 to 4 one by one )
 
-group_id=input("enter group_id")
-pywhatkit.sendwhatmsg_to_group("L4fK8yUKkaWLe1WM49AMqi", "test group", 17, 6)
 
+#def watsapp_message_bot(phone, id):
+# price_str=model[0]['price']
+# price = float(price_str)
+# output="New disscount,just today: " + model[0]['shoe'] +" at the unice price: "+ price_str
+ #output.replace(model[0]['price'],price)
+# pywhatkit.sendwhatmsg(phone, output , 15,8, 15, True, 2)
+# pywhatkit.sendwhatmsg_to_group(id, output, 17, 6)
+                                  #L4fK8yUKkaWLe1WM49AMqi
+
+#phone_number=input("Enter phone number")
+#group_id=input("enter group_id") 
+#watsapp_message_bot(phone_number, group_id)
 
