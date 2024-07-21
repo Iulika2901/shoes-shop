@@ -31,7 +31,7 @@ Ready to take the next step? Log in to your account, add your favorite pairs to 
 
 Save big on your favorite kicks! 📲💬      </h3>
 
-![WhatsApp Image 2024-07-21 at 18 29 15_934a731f](https://github.com/user-attachments/assets/e3355b8f-f305-4c0a-962b-e1617390c1fc)
+![Screenshot_20240721_214940_WhatsApp.jpg](https://github.com/user-attachments/assets/f27ced4e-8394-4d7f-9934-d76c76f3c350)
 
 Our website offers a seamless online shopping experience, allowing you to easily browse and purchase your favorite sports shoes. Enjoy features like a wishlist section to save your top picks, user accounts with two-step authentication for added security, and a convenient shopping cart for a smooth checkout process.
 
