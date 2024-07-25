@@ -33,6 +33,8 @@ Ready to take the next step? Log in to your account, add your favorite pairs to 
 
 ![WhatsApp Image 2024-07-17 at 15 33 41_4d8e8ae7](https://github.com/user-attachments/assets/24ab410d-d6e0-4c49-8897-2b2c4006902b)
 
+<h2>Secure Login:</h2> Your security is our priority. Our advanced login system guarantees that your personal information is safe, so you can shop with confidence.
+
 ![WhatsApp Image 2024-07-17 at 15 33 55_114a17dc](https://github.com/user-attachments/assets/b60cb190-ff1d-4bc6-a055-f7f11948e36b)
 
 ![WhatsApp Image 2024-07-17 at 15 34 16_9f5b8dbe](https://github.com/user-attachments/assets/e6aa7b8f-e7ce-4b7a-9637-9c3476f19b60)
