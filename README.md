@@ -27,7 +27,7 @@ Ready to take the next step? Log in to your account, add your favorite pairs to 
 
 <h1>  👟 Introducing our new WhatsApp Chatbot, Twilio! 👟  </h1>
 
-<h3> Get exclusive sneaker deals and offers directly on WhatsApp! Chat with us now to stay updated on the latest discounts and new arrivals.
+<h3> Get exclusive sneaker deals and offers directly on WhatsApp! Chat with us now to stay updated on the latest discounts and new arrivals. All users in our database can chat with us!
 
 Save big on your favorite kicks! 📲💬      </h3>
 
