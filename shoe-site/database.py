@@ -8,8 +8,8 @@ def create_db():
     c.execute("""
         CREATE TABLE IF NOT EXISTS customers1 (
             id TEXT PRIMARY KEY,
-            first_name TEXT,
-            last_name TEXT,
+            first_name TEXT NOT NULL,
+            last_name TEXT NOT NULL,
             email TEXT,
             password TEXT,
             age INTEGER
@@ -19,7 +19,7 @@ def create_db():
     c.execute("""
         CREATE TABLE IF NOT EXISTS shoes (
             id TEXT PRIMARY KEY,
-            name TEXT,
+            name TEXT NOT NULL,
             discount INTEGER,
             price REAL,
             available BOOLEAN
@@ -28,8 +28,8 @@ def create_db():
 
     c.execute("""
         CREATE TABLE IF NOT EXISTS cart (
-            customer_id TEXT,
-            shoe_id TEXT,
+            customer_id TEXT NOT NULL,
+            shoe_id TEXT NOT NULL,
             FOREIGN KEY (customer_id) REFERENCES customers1(id),
             FOREIGN KEY (shoe_id) REFERENCES shoes(id)
         )
@@ -100,29 +100,52 @@ def view_cart(customer_id):
                           #shoes
 
 def discount_special_days():
+   c.execute("ALTER TABLE shoes ADD reduced bool")
    c.execute("select date('now')")
    current_date=c.fetchone()[0]
    year, month, day = current_date.split('-')
    if day == '23' and month == '12':
-     c.execute("UPDATE shoes SET discount=50 where discount IN(0,10,15) AND available=1") 
+     c.execute("UPDATE shoes SET discount=50 where discount IN(0,10,15) AND available=1")
+     reduced=1 
    else:
        c.execute("UPDATE shoes SET discount=5 where discount IN(0,10,15) AND available=1") 
+       reduced=0 
    if day == '01' and month == '01':
-      c.execute("UPDATE shoes SET discount=50 where discount IN(0,10,15) AND available=1") 
+      c.execute("UPDATE shoes SET discount=50 where discount IN(0,10,15) AND available=1")
+      reduced=1  
    if day == '07' and month == '07':
-      c.execute("UPDATE shoes SET discount=50 where discount IN(0,10,15) AND available=1") 
+      c.execute("UPDATE shoes SET discount=50 where discount IN(0,10,15) AND available=1")
+      reduced=1  
    c.execute("select time('now')")
    current_time=c.fetchone()[0]
    hour, minute = current_time.split(':')
    if hour == '23':
-      c.execute("UPDATE shoes SET discount=25 where discount IN(0,10,15) AND available=1") 
+      c.execute("UPDATE shoes SET discount=25 where discount IN(0,10,15) AND available=1")
+      reduced=1  
+   
 
 
+def printf_shoes():
+ print("________________________")
+ c.execute("SELECT * FROM shoes")
+ c.execute(" .mode column")
+ c.execute(" .tables")
+ c.execute(" .schema")
+ c.execute("DELETE reduced FROM shoes ")
 
 
+def backup_all():
+    c.execute("SELECT * FROM shoes")
+    c.execute(" .backup shoes_bkp.db")
+    c.execute("SELECT * FROM cart")
+    c.execute(" .backup cart_bkp.db")
+    c.execute("SELECT * FROM customers1")
+    c.execute(" .backup customers1_bkp.db")
 
-
-
+def restore_all():
+    c.execute(" .restore shoes_bkp.db")
+    c.execute(" .restore cart_bkp.db")
+    c.execute(" .restore customers1_bkp.db")             
 
       
 #users 
@@ -135,7 +158,7 @@ age_over18()
 add_to_cart('6', '1')
 add_to_cart('6', '2')
 view_cart('6')
-
+backup_all()
 
 
 
